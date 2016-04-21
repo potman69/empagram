@@ -1,6 +1,9 @@
 var express = require('express');
 var expressHandlebars = require('express-handlebars');
 var app = express();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+
 var bodyParser = require('body-parser');
 
 // parse application/x-www-form-urlencoded
@@ -29,6 +32,6 @@ app.get('/proposals', function(req, res){
 });
 
 var port = process.env.port || 3007;
-app.listen(port, function(){
+http.listen(port, function(){
     console.log('running at port :' , port)
 });
