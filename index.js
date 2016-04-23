@@ -3,7 +3,6 @@ var expressHandlebars = require('express-handlebars');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-
 var bodyParser = require('body-parser');
 
 // parse application/x-www-form-urlencoded
@@ -18,17 +17,12 @@ app.engine('hbs', expressHandlebars({defaultLayout: 'main'}));
 app.set('view engine', 'hbs');
 
 app.get('/', function(req, res){
-    res.render('yo')
+    res.render('light');
 });
 
-app.post('/proposal', function(req, res){
-    console.log(req.body);
+app.post('/light', function(req, res){
+    console.log(req.body)
     res.redirect('/');
-});
-
-app.get('/proposals', function(req, res){
-    //console.log(req.body);
-    res.render('proposals');
 });
 
 var port = process.env.port || 3007;
