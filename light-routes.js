@@ -11,8 +11,7 @@ module.exports = function(){
 
     const light = function(req, res){
         lightStatus = req.body.status;
-
-
+        req.flash('info', `Light status now: ${lightStatus}`);
         res.redirect('/');
     }
 

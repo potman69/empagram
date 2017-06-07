@@ -12,3 +12,8 @@
 .on {
     opacity: 1;
 }
+
+.message {
+    color: green;
+    margin-bottom: 1em;
+}

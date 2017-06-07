@@ -1,9 +1,11 @@
-var express = require('express');
-var expressHandlebars = require('express-handlebars');
-var app = express();
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
-var bodyParser = require('body-parser');
+const express = require('express');
+const expressHandlebars = require('express-handlebars');
+const app = express();
+const http = require('http').Server(app);
+const io = require('socket.io')(http);
+const bodyParser = require('body-parser');
+const session = require('express-session');
+const flash = require('express-flash');
 
 const LightRoutes = require('./light-routes');
 
@@ -12,6 +14,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 app.use(express.static('public'));
+
+app.use(session({
+  secret: '@pp Factori3',
+  resave: false,
+  saveUninitialized: true
+}))
+
+app.use(flash());
 
 //setup handlebars
 app.engine('hbs', expressHandlebars({defaultLayout: 'main'}));
