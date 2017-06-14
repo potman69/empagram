@@ -91,8 +91,8 @@ var stories = [{
   },
   {
     id: "6",
-    heading: "",
-    content: "",
+    heading: "Grade 3 stuednts got textbooks",
+    content: "My Name is Martin Koopman, I was teaching at a school called Rusthof secondary school, but I have retired. I am very familiar with the issue of scarcity of books at the  townships. While I was waiting for my pension I took a loan with Jumbo they were very helpful and I managed to sponsor a primary school with grade 3 textbooks, I am very grateful I could be of help. Thank you Jumo.",
     likeCount: 0,
     photoName : "storypic6"
   },
