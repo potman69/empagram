@@ -15,9 +15,6 @@
       {{heading}}
       <p> <a data-open="storyModal{{id}}">
           <img class="smallImage" src="img/{{photoName}}.jpg" alt="Trolltunga Norway" ></a>
-          <a href="likeOrUnlike/{{id}}">Like</a>
-
-          {{likeCount}}
 
         </p>
 
@@ -25,6 +22,9 @@
       <p class = "picture"><img class="imgGrad" src="img/{{photoName}}.jpg" alt="Trolltunga Norway"></p>
         <h1>{{heading}}</h1>
         <p>{{content}}</p>
+        <a href="likeOrUnlike/{{id}}">Like</a>
+
+        {{likeCount}}
         <button class="close-button" data-close aria-label="Close reveal" type="button">
           <span aria-hidden="true">&times;</span>
         </button>
