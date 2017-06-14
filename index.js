@@ -59,37 +59,42 @@ var stories = [{
     heading: "Story 1",
     content: "",
     likeCount: 0,
-    photoName : "graduates2"
+    photoName : "storypic1"
   },
   {
     id: "2",
     heading: "Story 2",
     content: "",
-    likeCount: 0
+    likeCount: 0,
+    photoName : "storypic2"
   },
   {
     id: "3",
     heading: "Story 3",
     content: "",
-    likeCount: 0
+    likeCount: 0,
+    photoName : "storypic3"
   },
   {
     id: "4",
     heading: "",
     content: "",
-    likeCount: 0
+    likeCount: 0,
+    photoName : "storypic4"
   },
   {
     id: "5",
     heading: "",
     content: "",
-    likeCount: 0
+    likeCount: 0,
+    photoName : "storypic5"
   },
   {
     id: "6",
     heading: "",
     content: "",
-    likeCount: 0
+    likeCount: 0,
+    photoName : "storypic6"
   },
 
 ];
