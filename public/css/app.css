@@ -25,18 +25,22 @@ max-width: 100%;
 height: auto;
 align-content: center;
 }
+#username{
+  float: right;
+  color: black;
+}
 h2{
     font-family:'Kaushan Script', cursive;
     text-align: center;
     font-size: 350%;
-    margin-top: 1em;
+    /*margin-top: 1em;*/
     color: white;
 }
 h1{
     font-family:'Kaushan Script', cursive;
     text-align: center;
-    font-size: 350%;
-    margin-top: 1em;
+    font-size: 500%;
+    /*margin-top: 1em;*/
 }
 
 p{

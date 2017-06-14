@@ -46,12 +46,12 @@ app.get('/who', function(req, res) {
 
 //app.post('/light', lightRoutes.light);
 
-app.get('/', function(req, res) {
-  //req.session.username = req.params.username;
-  res.render('index', {
-    username: req.session.username
-  });
-});
+// app.get('/', function(req, res) {
+//   //req.session.username = req.params.username;
+//   res.render('index', {
+//     username: req.session.username
+//   });
+// });
 
 
 var stories = [{
@@ -102,7 +102,7 @@ var stories = [{
 var userLikes = {
 };
 
-app.get('/stories.html', function(req, res) {
+app.get('/', function(req, res) {
   //req.session.username = req.params.username;
   res.render('stories', {
     username: req.session.username,
@@ -148,7 +148,7 @@ app.get('/likeOrUnlike/:storyId', function(req, res) {
     currentStory.likeCount--;
   }
 
-  res.redirect('/stories.html')
+  res.redirect('/')
 
 });
 
