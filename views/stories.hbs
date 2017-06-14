@@ -11,10 +11,12 @@
 <div class="row">
   {{#each stories}}
 
-    <div class="columns">
-      {{heading}}
-      <p> <a data-open="storyModal{{id}}">
-          <img class="smallImage" src="img/{{photoName}}.jpg" alt="Trolltunga Norway" ></a>
+    <div class="small-2 columns">
+      <p>
+        Like(s){{likeCount}}
+        <a data-open="storyModal{{id}}">
+          <img class="thumbnail" src="img/{{photoName}}.jpg" alt="Trolltunga Norway" ></a>
+          {{heading}}
 
         </p>
 
@@ -24,11 +26,11 @@
         <p>{{content}}</p>
         <a href="likeOrUnlike/{{id}}">Like</a>
 
-        {{likeCount}}
         <button class="close-button" data-close aria-label="Close reveal" type="button">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-  {{/each}}
+
   </div>
+  {{/each}}
 </div>
