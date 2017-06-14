@@ -1,0 +1,123 @@
+/*$white: #fefefe;*/
+
+/* Demo Styles */
+body {
+  padding: 2rem 1rem;
+  background-image: url("background.jpg");
+  background-attachment:inherit;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 125%;
+  color: white;
+}
+.reveal {
+  display: block;
+  top: 24px;
+  color: black;
+}
+.imgGrad {
+width: 300px;
+height: 200px;
+float: left;
+display: inline-block;
+vertical-align: middle;
+max-width: 100%;
+height: auto;
+align-content: center;
+
+
+}
+
+h2{
+    font-family:'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 350%;
+    margin-top: 1em;
+}
+
+p{
+    text-align: center;
+}
+
+.shadow {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.shadow p {
+
+}
+
+.heading {
+    color: black;
+}
+.smallImage {
+  width: 200px;
+  height: auto;
+  float: left;
+}
+
+.docs-example-orbit-slide {
+  padding: 2rem 4rem;
+  color: $white;
+
+  .orbit-slide:nth-of-type(1) & {
+    background: dodgerblue;
+  }
+
+  .orbit-slide:nth-of-type(2) & {
+    background: rebeccapurple;
+  }
+
+  .orbit-slide:nth-of-type(3) & {
+    background: darkgoldenrod;
+  }
+
+  .orbit-slide:nth-of-type(4) & {
+    background: lightseagreen;
+  }
+  div.gallery {
+      border: 1px solid #ccc;
+  }
+
+  div.gallery:hover {
+      border: 1px solid #777;
+  }
+
+  div.gallery img {
+      width: 100%;
+      height: auto;
+  }
+
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+  }
+
+  @media only screen and (max-width: 700px){
+      .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+      }
+  }
+
+  @media only screen and (max-width: 500px){
+      .responsive {
+          width: 100%;
+      }
+  }
+
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
