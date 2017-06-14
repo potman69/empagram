@@ -4,7 +4,7 @@
 body {
   padding: 2rem 1rem;
   background-image: url("background.jpg");
-  background-attachment:inherit;
+  background-attachment:fixed;
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 125%;
@@ -26,6 +26,13 @@ height: auto;
 align-content: center;
 }
 h2{
+    font-family:'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 350%;
+    margin-top: 1em;
+    color: white;
+}
+h1{
     font-family:'Kaushan Script', cursive;
     text-align: center;
     font-size: 350%;
