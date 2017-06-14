@@ -66,6 +66,30 @@ var stories = [{
     content: "",
     likeCount: 0
   },
+  {
+    id: "3",
+    heading: "",
+    content: "",
+    likeCount: 0
+  },
+  {
+    id: "4",
+    heading: "",
+    content: "",
+    likeCount: 0
+  },
+  {
+    id: "5",
+    heading: "",
+    content: "",
+    likeCount: 0
+  },
+  {
+    id: "6",
+    heading: "",
+    content: "",
+    likeCount: 0
+  },  
 
 ];
 
@@ -122,7 +146,7 @@ app.get('/likeOrUnlike/:storyId', function(req, res) {
 
 });
 
-var port = process.env.PORT || 3007;
+var port = process.env.port || 3007;
 http.listen(port, function() {
   console.log('running at port :', port)
 });
