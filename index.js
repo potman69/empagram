@@ -56,19 +56,20 @@ app.get('/', function(req, res) {
 
 var stories = [{
     id: "1",
-    heading: "",
+    heading: "Story 1",
     content: "",
-    likeCount: 0
+    likeCount: 0,
+    photoName : "graduates2"
   },
   {
     id: "2",
-    heading: "",
+    heading: "Story 2",
     content: "",
     likeCount: 0
   },
   {
     id: "3",
-    heading: "",
+    heading: "Story 3",
     content: "",
     likeCount: 0
   },
@@ -89,7 +90,7 @@ var stories = [{
     heading: "",
     content: "",
     likeCount: 0
-  },  
+  },
 
 ];
 
