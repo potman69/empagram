@@ -57,7 +57,7 @@ app.get('/', function(req, res) {
 var stories = [{
     id: "1",
     heading: "Story 1",
-    content: "",
+    content: "Hello, My name is Thandekile Mbele. I am 48 years Old. I Live in Tanzania. I worked as a Pre School Teacher in the nearby village.I have five children, 2 Sons and 3 Daughters. I am a single parent and i am Responsible for all my children. It was not easy, because there was a time where i would just break into tears, not knowing what to do and not do, sometimes my children would get kicked out of school because school fees. Sometimes they would sleep on a empty stomach. We sometimes use the plants to help with our meals, but its not always enough. Through it all i always made sure that i send my children to shool no matter what... One day i was in a taxi to work, when heard my fellow mates talking about a company called Jumo that has been assisting them with Loans, at first i was scared to take the loan just incase i lose the little bit that i have currently until my friend told me how reasonable it is, I decided to apply for the loan because my elder daughter had Matriculated and she needed to go to varsity, she needed textbooks and Tuition fees.. Jumo gave me the Loan, My daughter just graduated with her Masters in Science and Technology. She has found a Job in New york City.. I would really like to thank Jumo for the extra Hand, and i would encourage anyOne to take the loan in time of need, it was really worth it.",
     likeCount: 0,
     photoName : "storypic1"
   },
